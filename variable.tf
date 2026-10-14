@@ -8,6 +8,9 @@ variable "vpc_cidr" {
   description = "default CIDR range of the VPC"
 }
 variable "aws_region" {
-  default = "us-east-1"
+  default     = "us-east-1"
   description = "aws region"
+}
+variable "cluster_name" {
+  default = "dev-cluster"
 }
